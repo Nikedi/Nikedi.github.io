@@ -1,18 +1,3 @@
-:root{--link-color: rgb(72, 191, 255);}
-
-html{
-    background-color: rgb(39, 40, 48);
-    color:rgb(235, 235, 235);
-    font-size: larger;
-    font-family: "Podkova", arial;
-}
-
-a{color:var(--link-color);}
-a:link {color:var(--link-color);}
-a:visited{color:var(--link-color);}
-a:hover{color:var(--link-color);}
-a:active{color:var(--link-color);}
-
 body{
     margin-top: 1em;
 }
@@ -24,7 +9,6 @@ main {
 
 article {
     margin-top: 2em;
-
 }
 
 nav {

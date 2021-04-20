@@ -10,17 +10,42 @@
 </head>
 
 <body>
-<main>
+<main class="container">
+<div id="toc-container">
+<section id="nav-toc">
 <nav>
+<h4>Navigation</h4>
 <a href="../">Home</a>
 </nav>
+<div id="toc">
+<h4>Table of contents</h4>
+<ul id="toc-list">
+<li>
+<a href="#execs" class="H2">execs</a>
+
+</li>
+
+<li><ul><li>
+<a href="#More-random-bs" class="H3">More random bs</a>
+</li></ul>
+</li>
+
+<li>
+<a href="#new-chapter" class="H2">new chapter</a>
+
+</li>
+</ul>
+</div>
+</section>
+</div>
+<div id="article-container">
+<header><h1>i3-config</h1><p>my i3 configuration</p><small>Niko Kataja | Published on: 3.4.2021</small></header>
 <article>
-<h1>My i3 config</h1>
 <p>I got my laptop midway through 2019 for school work.
 Initially i used the pre installed windows on it and installed propably a dozen different linux OSes.
 Eventually i settled with arch (after like 7 reinstalls).
 The first window manager I installed was i3 and since then i have maintained the same configuration file.</p>
-<h2>execs</h2>
+<h2 id="execs">execs</h2>
 <pre><code>exec_always --no-startup-id xrandr --auto --output eDP1 --mode 1920x1080 --left-of HDMI-1-1
 exec_always --no-startup-id xrandr --auto --output eDP1 --mode 1920x1080 --left-of HDMI-1-0
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
@@ -28,8 +53,18 @@ exec --no-startup-id setxkbmap -layout fi
 exec --no-startup-id sh ~/.fehbg
 exec --no-startup-id xautolock -time 15 -locker 'betterlockscreen -l dimblur'
 </code></pre>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida vulputate nunc. Integer ultricies nibh et risus fringilla, ac tempor nulla interdum. Nulla pharetra at mauris in placerat. Etiam sed mollis ante. Duis convallis consequat tortor sed congue. Curabitur eleifend nunc libero, dignissim fermentum libero commodo ut. Pellentesque varius rhoncus nisl, at egestas ligula pretium eu.</p>
+<p>Vivamus nec libero vitae urna feugiat mollis id fermentum ipsum. Pellentesque sit amet aliquam nulla. Donec nec diam nec odio luctus hendrerit. Duis nec finibus tortor. Donec ultrices orci sapien, quis gravida nisl malesuada nec. Phasellus massa justo, faucibus quis ipsum id, tempus blandit nunc. Nam et lorem eu risus imperdiet efficitur sit amet sed purus. Aliquam pellentesque dolor dapibus, bibendum ipsum at, commodo diam. Vivamus vehicula convallis nibh ac bibendum.</p>
+<p>Cras ut arcu sed justo luctus luctus. In pellentesque fermentum risus, vitae egestas odio interdum non. Duis aliquam neque pellentesque, cursus dui nec, elementum nisl. Maecenas vulputate nibh eu odio vestibulum, non placerat ante mollis. Sed vulputate semper diam, vitae iaculis eros interdum semper. Maecenas fringilla leo nisl, a facilisis nisl tristique vel. Cras sit amet erat eget sapien fermentum porttitor vel id est.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida vulputate nunc. Integer ultricies nibh et risus fringilla, ac tempor nulla interdum. Nulla pharetra at mauris in placerat. Etiam sed mollis ante. Duis convallis consequat tortor sed congue. Curabitur eleifend nunc libero, dignissim fermentum libero commodo ut. Pellentesque varius rhoncus nisl, at egestas ligula pretium eu.</p>
+<p>Vivamus nec libero vitae urna feugiat mollis id fermentum ipsum. Pellentesque sit amet aliquam nulla. Donec nec diam nec odio luctus hendrerit. Duis nec finibus tortor. Donec ultrices orci sapien, quis gravida nisl malesuada nec. Phasellus massa justo, faucibus quis ipsum id, tempus blandit nunc. Nam et lorem eu risus imperdiet efficitur sit amet sed purus. Aliquam pellentesque dolor dapibus, bibendum ipsum at, commodo diam. Vivamus vehicula convallis nibh ac bibendum.</p>
+<h3 id="More-random-bs">More random bs</h3>
+<p>Cras ut arcu sed justo luctus luctus. In pellentesque fermentum risus, vitae egestas odio interdum non. Duis aliquam neque pellentesque, cursus dui nec, elementum nisl. Maecenas vulputate nibh eu odio vestibulum, non placerat ante mollis. Sed vulputate semper diam, vitae iaculis eros interdum semper. Maecenas fringilla leo nisl, a facilisis nisl tristique vel. Cras sit amet erat eget sapien fermentum porttitor vel id est.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida vulputate nunc. Integer ultricies nibh et risus fringilla, ac tempor nulla interdum. Nulla pharetra at mauris in placerat. Etiam sed mollis ante. Duis convallis consequat tortor sed congue. Curabitur eleifend nunc libero, dignissim fermentum libero commodo ut. Pellentesque varius rhoncus nisl, at egestas ligula pretium eu.</p>
+<p>Vivamus nec libero vitae urna feugiat mollis id fermentum ipsum. Pellentesque sit amet aliquam nulla. Donec nec diam nec odio luctus hendrerit. Duis nec finibus tortor. Donec ultrices orci sapien, quis gravida nisl malesuada nec. Phasellus massa justo, faucibus quis ipsum id, tempus blandit nunc. Nam et lorem eu risus imperdiet efficitur sit amet sed purus. Aliquam pellentesque dolor dapibus, bibendum ipsum at, commodo diam. Vivamus vehicula convallis nibh ac bibendum.</p>
+<h2 id="new-chapter">new chapter</h2>
+<p>Cras ut arcu sed justo luctus luctus. In pellentesque fermentum risus, vitae egestas odio interdum non. Duis aliquam neque pellentesque, cursus dui nec, elementum nisl. Maecenas vulputate nibh eu odio vestibulum, non placerat ante mollis. Sed vulputate semper diam, vitae iaculis eros interdum semper. Maecenas fringilla leo nisl, a facilisis nisl tristique vel. Cras sit amet erat eget sapien fermentum porttitor vel id est.</p>
 
 </article>
+</div>
 </main>
 
 </body></html>
